@@ -1,0 +1,11 @@
+# сборка
+build/
+dist/
+installer_output/
+# spec-файл включён в репозиторий (конфигурация сборки)
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/

@@ -1,0 +1,15 @@
+# Точные версии зависимостей релиза Yarkost Monitor 1.0.0.
+# Зафиксированы в контрольном окружении подготовки релиза; фактическое
+# окружение каждой сборки дополнительно протоколируется make_installer.bat
+# в installer_output/build-environment.txt (pip freeze).
+PySide6==6.11.1
+PySide6_Essentials==6.11.1
+PySide6_Addons==6.11.1
+shiboken6==6.11.1
+PySide6-Fluent-Widgets==1.11.3
+PySideSix-Frameless-Window==0.8.1
+darkdetect==0.8.0
+monitorcontrol==4.2.0
+Pillow==12.2.0
+wmi==1.5.1; platform_system == "Windows"
+pywin32==312; platform_system == "Windows"
